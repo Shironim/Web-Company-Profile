@@ -1,13 +1,15 @@
 *{
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 .medsos{
-  padding: 5px;
+  padding:8px 0;
   background-color: #009F93;
 }
 .medsos ul li{
   display: inline-block;
+  margin-right: 12px;
 }
 .medsos ul li a{
   color: #fff;
