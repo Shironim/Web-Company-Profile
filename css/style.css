@@ -25,7 +25,7 @@ body{
 }
 nav .judul{
   float: left;
-  padding: 15px 0;
+  padding: 10px 0;
   color: #009F93;
 }
 nav .navigasi{
@@ -51,6 +51,10 @@ nav .navigasi li a:hover{
   background-color: #009F93;
   color: #fff;
   transition: ease-in-out .2s;
+}
+.active{
+  background-color: #009F93;
+  color: #fff !important;
 }
 .clearfix{
   clear: both;
@@ -104,4 +108,42 @@ section{
 .service h2{
   /* background-color: #fafafa; */
   color: #009F93;
+}
+.service .box-outer{
+  display: flex;
+  justify-content: space-between;
+}
+.service .box-outer .box .icon span{
+  color: #009F93;
+  font-size: 24px;
+  padding: 20px;
+  border: 1px solid #009F93;
+  border-radius: 50%;
+}
+.service .box-outer .box:first-child .icon span{
+  
+  padding: 20px 28px;
+  border: 1px solid #009F93;
+  border-radius: 50%;
+}
+.box-outer .box .icon{
+  padding: 20px;
+  /* border: 1px solid #009F93; */
+  margin-bottom: 8px;
+}
+.box-outer .box .judul{
+  /* padding: 20px; */
+  /* border: 1px solid #009F93; */
+  margin-bottom: 8px;
+}
+.box-outer .box{
+  width: 25%;
+  padding: 10px;
+  /* border: 1px solid #009F93; */
+}
+footer{
+  background-color: #009F93;
+  color: #fff;
+  text-align: right;
+  padding: 12px 0;
 }
