@@ -59,6 +59,9 @@ nav .navigasi li a:hover{
 .clearfix{
   clear: both;
 }
+#about.banner{
+  background-image: url(../img/banner.jpg)
+}
 .banner{
   height: 80vh;
   background-image: url(../img/hero.jpg);
@@ -94,7 +97,7 @@ nav .navigasi li a:hover{
   word-spacing: 4px;
   line-height: 1.4rem;
 }
-.about h2{
+h2,h3{
   color: #009F93;
   margin: 15px 0;
 }
@@ -170,7 +173,15 @@ footer{
   border-right-color: #009F93;
   animation: loader .4s linear infinite;
 }
-
+.breadcumb{
+  background-color: #009F93;
+  color: #fff;
+  padding: 30px;
+  font-weight: bold;
+}
+.visi{
+  text-align: center;
+}
 @keyframes loader{
   100%{
     transform: rotate(360deg);
