@@ -1,0 +1,25 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.medsos{
+  padding: 5px;
+  background-color: #009F93;
+}
+.medsos ul li{
+  display: inline-block;
+}
+.medsos ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+nav{
+  display: inline-block;
+}
+nav .navigasi{
+  display: inline-block;
+}
