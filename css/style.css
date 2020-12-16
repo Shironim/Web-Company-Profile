@@ -147,3 +147,32 @@ footer{
   text-align: right;
   padding: 12px 0;
 }
+.bg-loader{
+  background-color: #ECCFC3;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-loader .loader{
+  border: 3px solid #ECCFC3;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-top-color: #009F93;
+  border-bottom-color: #009F93;
+  /* border-left-color: #009F93; */
+  border-right-color: #009F93;
+  animation: loader .4s linear infinite;
+}
+
+@keyframes loader{
+  100%{
+    transform: rotate(360deg);
+  }
+}
