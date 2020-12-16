@@ -55,3 +55,53 @@ nav .navigasi li a:hover{
 .clearfix{
   clear: both;
 }
+.banner{
+  height: 80vh;
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 159, 147,0.4);
+}
+.banner{
+  padding: 50px 0;
+}
+.banner .judul{
+  color: #fff;
+  padding: 20px 30px;
+  border: 5px solid #fff;
+  z-index: 1;
+}
+.about{
+  color: #000;
+  text-align: center;
+  word-spacing: 4px;
+  line-height: 1.4rem;
+}
+.about h2{
+  color: #009F93;
+  margin: 15px 0;
+}
+section{
+  margin-bottom: 30px;
+}
+.service{
+  background-color: #fafafa;
+  text-align: center;
+}
+.service h2{
+  /* background-color: #fafafa; */
+  color: #009F93;
+}
