@@ -112,7 +112,7 @@ section{
   /* background-color: #fafafa; */
   color: #009F93;
 }
-.service .box-outer{
+.box-outer{
   display: flex;
   justify-content: space-between;
 }
@@ -182,8 +182,19 @@ footer{
 .visi{
   text-align: center;
 }
+.kontak{
+  text-align: center;
+}
+.container > h2{
+  margin: 48px 0;
+}
 @keyframes loader{
   100%{
     transform: rotate(360deg);
+  }
+}
+@media screen and (max-width : 768px){
+  .container{
+    width: 90%;
   }
 }
